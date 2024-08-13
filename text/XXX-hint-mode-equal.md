@@ -73,6 +73,11 @@ attempt will have its `allowed_evars` set restricted in accordance with the `=`
 modes of the classes arguments. The order between attempts of the same hint that
 belong to different mode lines should be left unspecified.
 
+Note that `Strict Resolution` could be deprecated in the future since it is
+subsumed by setting all `=` modes in all relevant databases. (It might make
+sense to introduce a `Default Hint Mode` command that sets the mode across all
+databases that do not have explicit modes for the class.)
+
 # Drawbacks
 
 The fact that multiple mode lines can now lead to additional hint applications
