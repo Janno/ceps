@@ -49,7 +49,7 @@ The key observation that motivates this CEP is that the problem is almost
 entirely trivial to solve in many cases. In particular, many developments
 already work on entirely or almost entirely disjoint typeclasses. The only
 reason they all end up in the same database is because the system is set up in a
-way that makes that choice the past of least resistance (and sometimes the only
+way that makes that choice the path of least resistance (and sometimes the only
 path, e.g. if clients are expected to benefit from the typeclasses in `apply _`
 and the other tactics listed above).
 
